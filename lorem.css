@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-container
+{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.title
+{
+    color:rgb(67, 126, 126);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+
+}
+.lorem-form 
+{
+    margin-bottom: 1rem;
+}
+#count
+{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 0.5rem;
+    text-transform: capitalize;
+   }
+#amount
+{
+    padding: 0.5rem;
+    width: 50px;
+    font-weight: 400;
+    color: rgb(24, 228, 160);
+    margin-right: 1rem;
+}
+.btn
+{
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    border-radius: 2px;
+    background-color: aquamarine;
+}
+.para
+{
+    height: auto;
+    width: 1000px;
+    text-align: center;
+}
